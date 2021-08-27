@@ -1,8 +1,10 @@
 </div>
 <!--Container END-->
-<footer class="bd-footer py-1 mt-5 bg-dark align-items-center" text-align="center">
-    <img src="/assets/img/logo.png" class="rounded-top" alt="logo_rodapé" height="100">
-    <p class="copyright">&copy; Copyright !R Aulas - 2021</p>
+<footer class="bd-footer py-1 mt-5 bg-dark align-items-center footer-background" text-align="center">
+    <a href="sobre-nos.php">
+        <img src="/assets/img/logo.png" class="rounded-top" alt="logo_rodapé" height="100">
+    </a>
+        <p class="copyright">&copy; Copyright !R Aulas - 2021</p>
 </footer>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

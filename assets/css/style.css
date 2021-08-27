@@ -16,3 +16,52 @@ footer {
 .td-center {
 	text-align: center;
 }
+
+.carrousel-img {
+    width: 1200px;
+	height: 190px;
+}
+
+.header-background {
+	background-image: url(/assets/img/background.jpg);
+	
+}
+
+.footer-background {
+	color: url(/assets/img/background.jpg);
+}
+
+.no-margin {
+	max-width: none;
+	margin: 0px;
+	padding: 2px;
+}
+
+.my-header {
+	margin: 0px;
+}
+
+h3{
+	margin: 30px;
+}
+
+/*Sobre nós - Início*/
+.content-about-us {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.about-us {
+	color:black;
+	font-family: cursive;
+}
+
+.about-us-text {
+	color: gray;
+	font-family: cursive;
+	justify-content: left;
+}
+
+.content-about-us .row {
+	margin: 50px;
+}
