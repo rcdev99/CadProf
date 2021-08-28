@@ -1,0 +1,19 @@
+{
+    "name": "user/cad-prof",
+    "description": "gerenciador de dependencias para app de cadastro de alunos e professores.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "rcdev99",
+            "email": "ricardo06.rodrigues@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Alura\\Cursos\\": "src/"
+        }
+    },
+    "require": {
+        
+    }
+}
