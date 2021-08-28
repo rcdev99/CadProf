@@ -35,7 +35,3 @@
         </ul>
     </div>
 </nav>
-<div class="container">
-    <div class="jumbotron text-center">
-        <h1>Alunos</h1>
-    </div>
