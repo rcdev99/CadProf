@@ -2,7 +2,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <div class="jumbotron text-center">
+            <div class="jumbotron text-center alunos-title">
                 <h1>Alunos</h1>
             </div>
             <div class="row">
