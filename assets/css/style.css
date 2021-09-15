@@ -35,11 +35,10 @@ footer {
 }
 
 .alunos-title {
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-repeat: repeat-x;
+	background-size: contain;
 	background-image: url(/assets/img/lousa_3_bkg.jpg);
 	background-origin: border-box;
-	background-position: center;
 	background-blend-mode: multiply;
 }
 
