@@ -92,3 +92,18 @@ h3{
 .content-about-us .row {
 	margin: 50px;
 }
+
+/*CSS Home Page*/
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+}
+
+.card-padrao :hover h5 {
+	font-weight: bold;
+}
+
+.card-padrao :hover p {
+	font-size: 105%;
+}
