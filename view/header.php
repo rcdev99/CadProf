@@ -28,9 +28,9 @@
     <div class="container-fluid">
         <img src="/assets/img/logo_2.png" class="rounded-top" alt="logo" height="100">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <a class="navbar-brand" href="home.php">Home</a>
-            <a class="nav-link" href="lista-alunos.php">Alunos</a>
-            <a class="nav-link" href="lista-professores.php">Professores</a>
+            <a class="navbar-brand" href="/home">Home</a>
+            <a class="nav-link" href="/lista-alunos">Alunos</a>
+            <a class="nav-link" href="/lista-professores">Professores</a>
         </ul>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
