@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!-- Reset CSS-->
-    <link rel="stylesheet" href="/public/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -20,17 +20,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
     <!-- My Style´s-->  
-    <link rel="stylesheet" href="/public/assets/css/style.css">    
+    <link rel="stylesheet" href="/assets/css/style.css">    
     <title>!R - Aulas</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-2 header-background">
     <div class="container-fluid">
-        <img src="/public/assets/img/logo_2.png" class="rounded-top" alt="logo" height="100">
+        <img src="/assets/img/logo_2.png" class="rounded-top" alt="logo" height="100">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <a class="navbar-brand" href="home.php">Home</a>
-            <a class="nav-link" href="lista-alunos.php">Alunos</a>
-            <a class="nav-link" href="lista-professores.php">Professores</a>
+            <a class="navbar-brand" href="/home">Home</a>
+            <a class="nav-link" href="/lista-alunos">Alunos</a>
+            <a class="nav-link" href="/lista-professores">Professores</a>
         </ul>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
