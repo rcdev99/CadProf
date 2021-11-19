@@ -37,7 +37,7 @@ footer {
 .alunos-title {
 	background-repeat: repeat-x;
 	background-size: contain;
-	background-image: url(/public/assets/img/lousa_3_bkg.jpg);
+	background-image: url(/assets/img/lousa_3_bkg.jpg);
 	background-origin: border-box;
 	background-blend-mode: multiply;
 }
@@ -49,7 +49,7 @@ footer {
 .professores-title {
 	background-repeat: repeat-x;
 	background-size: contain;
-	background-image: url(/public/assets/img/lousa_3_bkg.jpg);
+	background-image: url(/assets/img/lousa_3_bkg.jpg);
 	background-origin: border-box;
 	background-blend-mode: multiply;
 }

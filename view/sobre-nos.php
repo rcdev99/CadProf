@@ -9,14 +9,14 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="5000">
-                    <img src="/public/assets/img/technology_03.jpg" class="d-block w-100 carrousel-img" alt="Sobre nós">
+                    <img src="/assets/img/technology_03.jpg" class="d-block w-100 carrousel-img" alt="Sobre nós">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Soluções inteligentes</h5>
                         <p>Para um mundo novo recheado de tecnologia.</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="4000">
-                    <img src="/public/assets/img/technology_06.jpg" class="d-block w-100 carrousel-img" alt="...">
+                    <img src="/assets/img/technology_06.jpg" class="d-block w-100 carrousel-img" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Certificado de inovação e confiança</h5>
                         <p>Qualidade comprovada pelo mercado.</p>
@@ -40,7 +40,7 @@
                 <h3 class="about-us text-center">Ainda não nos conhece ?</h3>
                 <div class="row">
                     <div class="col-md-3">
-                        <img src="/public/assets/img/missao.jpg" class=img-thumbnail alt="Nos conheça">
+                        <img src="/assets/img/missao.jpg" class=img-thumbnail alt="Nos conheça">
                     </div>
                     <div class="col-md-9">
                         <h5>Estamos aqui para ...</h5>
@@ -57,12 +57,12 @@
                         </p>      
                     </div>
                     <div class="col-md-3">
-                        <img src="/public/assets/img/visao.jpg" class=img-thumbnail alt="Nos conheça">
+                        <img src="/assets/img/visao.jpg" class=img-thumbnail alt="Nos conheça">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-3">
-                        <img src="/public/assets/img/valores.png" class=img-thumbnail alt="Nos conheça">
+                        <img src="/assets/img/valores.png" class=img-thumbnail alt="Nos conheça">
                     </div>
                     <div class="col-md-9">
                         <h5>Pois somos</h5>
