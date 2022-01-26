@@ -2,7 +2,9 @@
 <div class="container">
     <div class="col-12">
         <div class="jumbotron text-center alunos-title">
-            <h1>Alunos</h1>
+            <h1>
+                <?=$titulo;?>
+            </h1>
         </div>
         <div class="row">
             <div class="col-12 text-right">
@@ -27,43 +29,11 @@
                 <tbody>
                     <tr>
                         <td class="td-center">1</th>
-                        <td>José Carlos Silva</td>
-                        <td>123.456.789-10</td>
-                        <td>Administração</td>
-                        <td>josecarlos@teste.com.br</td>
-                        <td>(11) 96633-6622</td>
-                        <td>
-                            <a href="#" class="btn btn-primary">
-                                <span class="oi oi-pencil" title="Editar" aria-hidden="true"></span>
-                            </a>
-                            <a href="#" class="btn btn-danger">
-                                <span class="oi oi-trash"></span>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="td-center">2</th>
-                        <td>Maria Joana Oliveira</td>
-                        <td>222.222.222-22</td>
-                        <td>Pedagogia</td>
-                        <td>mariajoana@teste.com.br</td>
-                        <td>(11) 96633-6623</td>
-                        <td>
-                            <a href="#" class="btn btn-primary">
-                                <span class="oi oi-pencil" title="Editar" aria-hidden="true"></span>
-                            </a>
-                            <a href="#" class="btn btn-danger">
-                                <span class="oi oi-trash"></span>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="td-center">3</th>
-                        <td>Lucas Amarílio das Flores</td>
-                        <td>333.333.333-33</td>
-                        <td>Corte e Costura</td>
-                        <td>lucasdasflores@teste.com.br</td>
-                        <td>(11) 96633-6625</td>
+                        <td><?= $alunos[0]->getNome(); ?></td>
+                        <td><?= $alunos[0]->getCpf(); ?></td>
+                        <td><?= $alunos[0]->getCurso(); ?></td>
+                        <td><?= $alunos[0]->getEmail(); ?></td>
+                        <td><?= $alunos[0]->getTelefones()[0]->getNumero(); ?></td>
                         <td>
                             <a href="#" class="btn btn-primary">
                                 <span class="oi oi-pencil" title="Editar" aria-hidden="true"></span>

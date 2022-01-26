@@ -4,6 +4,7 @@ namespace CadProf\Entity;
 
 /**
  * @Entity
+ * @Table(name="telefone")
  */
 class Telefone
 {
@@ -20,9 +21,10 @@ class Telefone
     private $numero;
 
     /**
-     * @ManyToOne(targetEntity="Pessoa")
+     * @ManyToOne(targetEntity="Pessoa", inversedBy="telefones")
+     * @JoinColumn(name="pessoa_id", referencedColumnName="id")
      */
-    private $pessoa;
+    protected $pessoa;
 
     //Getters and Setters
     public function getId():int
