@@ -16,15 +16,19 @@ class EntityManagerCreator
         $paths = [__DIR__ . '/../Entity'];
         $isDevMode = false;
 
-        $dbParams = array(
-            'driver' => 'pdo_sqlite',
-            'path' => __DIR__ . '/../../var/data/db.sqlite'
-        );
-
         $config = Setup::createAnnotationMetadataConfiguration(
             $paths,
             $isDevMode
         );
-        return EntityManager::create($dbParams, $config);
+
+        $con = [
+            'driver' => 'pdo_pgsql',
+            'host' => 'localhost',
+            'dbname' => 'cadprof',
+            'user' => 'postgres',
+            'password' => 'RcDev999@',
+        ];
+
+        return EntityManager::create($con, $config);
     }
 }

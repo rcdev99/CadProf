@@ -32,12 +32,19 @@ $request = $creator->fromGlobals();
 
 //Obtendo class a ser instanciada através da rota mapeada
 $classControladora = $rotas[$caminho_url];
+
+//Injeção de depêndencias
+/** @var ContainerInterface $container */
+$container = require __DIR__ . '/../config/dependencies.php';
+
 /**
  * @var RequestHandlerInterface $controlador
  */
 //Instanciando classe de acordo com mapeamento
-$controlador = new $classControladora;
+$controlador = $container->get($classControladora);
+
 $response = $controlador->handle($request);
+
 //Enviando os headers
 foreach ($response->getHeaders() as $name => $values) {
     foreach ($values as $value) {
